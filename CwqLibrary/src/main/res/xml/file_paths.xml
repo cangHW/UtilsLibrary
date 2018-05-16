@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <paths>
+        <!--Context.getFilesDir()内部文件共享-->
+        <external-path
+            name="external_share"
+            path=""/>
+        <!--Environment.getExternalStorageDirectory()内部文件共享-->
+        <files-path
+            name="files_share"
+            path=""/>
+        <!--getCacheDir()内部文件共享-->
+        <cache-path
+            name="cache_share"
+            path=""/>
+    </paths>
+</paths>
